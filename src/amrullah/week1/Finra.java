@@ -1,3 +1,5 @@
+package amrullah.week1;
+
 public class Finra{
     public static void finra( ){
         for (int i=1; i<=30; i++ ){

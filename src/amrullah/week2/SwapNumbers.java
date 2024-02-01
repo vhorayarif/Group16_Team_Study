@@ -1,4 +1,4 @@
-package week2;
+package amrullah.week2;
 
 public class SwapNumbers {
 }
