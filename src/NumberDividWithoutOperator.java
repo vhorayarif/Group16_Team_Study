@@ -10,6 +10,10 @@ public class NumberDividWithoutOperator {
         System.out.println("enter second no");
         int b = sc.nextInt();
 
+        if(b == 0){
+            throw new ArithmeticException("can't divide by zero");
+        }
+
         int count = 0;
         while(a >= b){
             a = a-b;
