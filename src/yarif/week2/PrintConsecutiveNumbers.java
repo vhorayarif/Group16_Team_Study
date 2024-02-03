@@ -1,6 +1,48 @@
-package week2;
+package yarif.week2;
+
+import java.util.Scanner;
 
 public class PrintConsecutiveNumbers {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter positive number:");
+        int number = input.nextInt();
+
+
+        consecutiveNums(number);
+
+
+    }
+
+    public static void consecutiveNums(int n){
+
+
+
+        for(int i = 1; i <= n; i++){
+
+            String result = "";
+
+            if( i % 2 == 0){
+                result += "Codility";
+            }
+
+            if( i % 3 == 0){
+                result += "Test";
+            }
+
+            if( i % 5 == 0){
+                result += "Coders";
+            }
+
+            System.out.println(result.isEmpty() ? i : result );
+
+        }
+
+
+    }
+
 }
 
 /*
