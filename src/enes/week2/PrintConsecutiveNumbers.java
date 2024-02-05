@@ -1,4 +1,4 @@
-package week2;
+package enes.week2;
 
 public class PrintConsecutiveNumbers {
 }
