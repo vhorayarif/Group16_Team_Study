@@ -1,6 +1,6 @@
 package week1;
 
-public class Devide {
+public class Divide {
 
     /*
     *  Write a method that can
