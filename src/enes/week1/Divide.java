@@ -1,4 +1,4 @@
-package enes;
+package enes.week1;
 
 public class Divide {
 
