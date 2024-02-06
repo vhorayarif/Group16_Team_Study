@@ -1,7 +1,56 @@
 package enes.week2;
 
+import java.util.Scanner;
+
 public class PrintConsecutiveNumbers {
+
+    public static void main(String[] args) {
+
+        consecutive();
+
+    }
+
+
+    public static void consecutive() {
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Please enter the last number you wish to print until: ");
+
+        int n = scan.nextInt();
+
+
+        for (int i = 1; i <= n; i++) {
+
+
+            if (i % (2 * 3 * 5) == 0) {
+
+                System.out.println("CodilityTestCoders");
+            } else if (i % (3 * 5) == 0) {
+                System.out.println("TestCoders");
+            } else if (i % (2 * 5) == 0) {
+                System.out.println("CodilityCoders");
+            } else if (i % (2 * 3) == 0) {
+                System.out.println("CodilityTest");
+            } else if (i % 5 == 0) {
+                System.out.println("Coders");
+            } else if (i % 3 == 0) {
+                System.out.println("Test");
+            } else if (i % 2 == 0) {
+                System.out.println("Codility");
+            } else {
+                System.out.println(i);
+            }
+
+
+        }
+
+
+    }
+
+
 }
+
 
 /*
 *
