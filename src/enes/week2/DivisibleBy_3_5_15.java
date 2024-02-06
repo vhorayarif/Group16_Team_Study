@@ -3,19 +3,34 @@ package enes.week2;
 public class DivisibleBy_3_5_15 {
 
 
-    for(int i = 1; i<= 100; i++){
+    public static void main(String[] args) {
 
-        if (i%15==0){
+        int n = 100;
 
-            System.out.println("Divisible by 15: " + i);
-        } else if (i%5==0) {
-            System.out.println("Divisible by 5: " + i);
-        }else if (i%3 ==0){
-            System.out.println("Divisible by 3: " + i);
+        String by15 = "", by5 = "", by3 = "";
+
+
+        for (int i = 1; i <= n; i++) {
+
+            if (i % 15 == 0) {
+
+                by15 += i + ", ";
+            } else if (i % 5 == 0) {
+                by5 += i + ", ";
+            } else if (i % 3 == 0) {
+                by3 += i + ", ";
+            }
+
+
         }
+
+        System.out.println("Divisible by 15: " + by15);
+        System.out.println("Divisible by 15: " + by5);
+        System.out.println("Divisible by 15: " + by3);
 
 
     }
+
 
 }
 
