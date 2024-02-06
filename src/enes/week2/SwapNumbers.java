@@ -19,8 +19,8 @@ public class SwapNumbers {
 
             y -= x;
 
-            System.out.println("First number has been successfully swapped, the new value is: " + x);
-            System.out.println("Second number has been successfully swapped, the new value is: " + y);
+            System.out.println("First number has been successfully swapped, the new value is x: " + x);
+            System.out.println("Second number has been successfully swapped, the new value is y: " + y);
 
         }
 
@@ -33,13 +33,13 @@ public class SwapNumbers {
 
             y -= x;
 
-            System.out.println("First number has been successfully swapped, the new value is: " + x);
-            System.out.println("Second number has been successfully swapped, the new value is: " + y);
+            System.out.println("First number has been successfully swapped, the new value is x: " + x);
+            System.out.println("Second number has been successfully swapped, the new value is y: " + y);
 
         }
 
 
-        if (x < 0 || y < 0) { // x = -3 & y = 5;
+        if (x < 0 && y > 0 || x > 0 && y <0) { // x = -3 & y = 5;
 
             y = -y;
 
@@ -51,8 +51,8 @@ public class SwapNumbers {
 
             x = -x;
 
-            System.out.println("First number has been successfully swapped, the new value is: " + x);
-            System.out.println("Second number has been successfully swapped, the new value is: " + y);
+            System.out.println("First number has been successfully swapped, the new value is x: " + x);
+            System.out.println("Second number has been successfully swapped, the new value is y: " + y);
 
         }
 
