@@ -1,3 +1,5 @@
+package week1;
+
 public class DivisionWithoutDivOperator {
         public static void main(String[] args) {
             int dividend = 21;
