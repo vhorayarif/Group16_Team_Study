@@ -1,3 +1,5 @@
+package Elif_Solutions.week1;
+
 public class OddEvenNumber {
     public static void main(String[] args) {
 
