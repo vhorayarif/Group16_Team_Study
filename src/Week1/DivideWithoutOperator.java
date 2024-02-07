@@ -1,3 +1,5 @@
+package Week1;
+
 public class DivideWithoutOperator {
     public static void main(String[] args) {
         System.out.println(Result(144, 12));
