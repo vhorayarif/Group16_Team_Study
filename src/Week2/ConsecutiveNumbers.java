@@ -31,7 +31,6 @@ public class ConsecutiveNumbers {
                 System.out.println(i);
             }
 
-
         }
     }
 }
