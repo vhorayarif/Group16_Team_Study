@@ -21,10 +21,7 @@ public class Division {
             dividend -= divisor;
             count++;
         }
-
-
         return count;
-
 
     }
 
